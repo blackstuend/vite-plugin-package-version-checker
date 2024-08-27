@@ -6,13 +6,22 @@
   "description": "A Vite plugin that checks for version mismatches between your package.json and installed dependencies, ensuring consistency across development environments and preventing version-related issues.",
   "author": "LucianLin",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/pkg-placeholder#readme",
+  "homepage": "https://github.com/blackstuend/vite-plugin-package-version-checker",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/pkg-placeholder.git"
+    "url": "git+https://github.com/blackstuend/vite-plugin-package-version-checker.git"
   },
-  "bugs": "https://github.com/antfu/pkg-placeholder/issues",
-  "keywords": [],
+  "bugs": "https://github.com/blackstuend/vite-plugin-package-version-checker/issues",
+  "keywords": [
+    "vite",
+    "plugin",
+    "package",
+    "version",
+    "checker",
+    "dependency",
+    "mismatch",
+    "consistency"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
