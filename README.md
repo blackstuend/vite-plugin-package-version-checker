@@ -1,4 +1,5 @@
 # Vite Package Version Checker Plugin
+This Vite plugin will checks for version mismatches between your package.json and installed dependencies, ensuring consistency across development environments and preventing forget to update package version.
 
 ## Why This Plugin?
 
@@ -8,25 +9,10 @@ In collaborative development environments, especially in large companies with mu
 2. Other team members are unaware of these updates and continue working with outdated dependencies.
 3. This leads to inconsistencies across development environments, causing unexpected bugs and conflicts.
 
-This plugin was developed to address these challenges by:
-
-- Automatically checking for version mismatches between your `package.json` and installed dependencies.
-- Providing immediate feedback during development and build processes.
-- Ensuring all team members are working with the correct and up-to-date package versions.
-
-By integrating this plugin into your Vite project, you can:
-
-- Prevent version-related issues before they cause problems in production.
-- Improve collaboration by keeping all developers in sync with dependency versions.
-- Save time and reduce frustration caused by hard-to-trace version mismatch bugs.
-
-Whether you're working in a large team or just want to ensure consistency across different development environments, this plugin helps maintain the integrity of your project's dependencies.
-
-A Vite plugin that checks for version mismatches between your package.json and installed dependencies.
-
 ## Installation
 
 ```bash
+npm i vite-plugin-package-version-checker -D
 pnpm add vite-plugin-package-version-checker -D
 ```
 
